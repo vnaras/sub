@@ -11,10 +11,9 @@ vless://b51a60a9-72d2-4703-9147-e2d1e719770d@104.168.117.222:886?security=realit
 vless://d95b36e0-a5dc-4575-86bb-b6b76f63a893@23.132.185.252:886?security=reality&encryption=none&alpn=h2,http/1.1&pbk=_tfbzC8ycFIxVcBi_t6QfyNB51l4gEdvxsZPxtO9Y24&headerType=none&fp=chrome&type=grpc&flow=&sni=itunes.apple.com&sid=2f56ea6c221b6a65&mode=gun&serviceName=grpc#RealityEZPZ
 vless://9b4af454-88f1-4420-9fa5-6d4bb32c5ebf@23.132.185.252:886?security=reality&encryption=none&alpn=h2,http/1.1&pbk=_tfbzC8ycFIxVcBi_t6QfyNB51l4gEdvxsZPxtO9Y24&headerType=none&fp=chrome&type=grpc&flow=&sni=itunes.apple.com&sid=2f56ea6c221b6a65&mode=gun&serviceName=grpc#new
 vless://a63a138e-123a-4745-9d36-7dfbec3204f7@23.132.185.252:1043?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.microsoft.com&fp=chrome&pbk=TIke-6bBEIe9cngIAWtceUlm5WQ2qUTdQLDYbrKzK2I&sid=c64b34f69c2967a9&type=tcp&headerType=none#Misaka-Reality
-
-
-
-
+vless://1472c9d9-4062-40f9-90b1-c00e4d884e24@23.132.185.252:8000?type=http&security=reality&encryption=none&pbk=VQyuEvR-vGAIzQPdCgrJL0Fz6VpKrObeKfUNGGBQpgc&fp=chrome&path=%2F&sni=yahoo.com&sid=c7abe518768cfd52#vless+tls+h2+reality
+vless://183f79e9-b759-414d-890a-53daa56630ea@212.193.13.79:8000?type=http&security=reality&encryption=none&pbk=76Rwca8qG6wP0Ep-oBTEjt3PiuPM65PBiYKaFFTPdEs&fp=chrome&path=%2F&sni=yahoo.com&sid=86f2beec75765202#vless+tls+h2+reality
+vless://a2d50ab0-7a93-40f4-9c81-cd7889f1f55e@104.168.117.222:8000?type=http&security=reality&encryption=none&pbk=IOcPz10ooRVne0QGoDkfbnOSZIyR8ThNnnjNrZoHN0o&fp=chrome&path=%2F&sni=yahoo.com&sid=c232681357b1ec22#vless+tls+h2+reality
 
 
 vless://9d1c4003-5b9a-4552-c98f-4eaaffe4ada9@93.88.74.97:443?security=reality&sni=discord.com&fp=firefox&pbk=Uhr5tVbWMaOSidsMcNxdBnM2OzO37nH106cPdmIoI1I&sid=d4dd377e&type=tcp&flow=xtls-rprx-vision#ICP%20REALITY-z3id3vm3gm
