@@ -1,3 +1,5 @@
+vless://c095b75d-51a9-4d48-abc7-3b2cf5168a7c@95.179.162.223:443?security=tls&sni=neoworker.fun4.cloud&fp=chrome&type=ws&path=?ed%3D2048&host=neoworker.fun4.cloud#neo.worker
+vless://c095b75d-51a9-4d48-abc7-3b2cf5168a7c@cp.fun4.cloud:443?security=tls&sni=neoworker.fun4.cloud&fp=chrome&type=ws&path=?ed%3D2048&host=neoworker.fun4.cloud#neo.worker
 vless://1f0e4f7e-dbbb-4bc8-a0ff-ca8a23f692c1@104.168.117.222:4443?security=reality&encryption=none&alpn=h2,http/1.1&headerType=none&fp=chrome&type=grpc&flow=&sni=www.cookielaw.org&pbk=VYet5mcB4P2gZO1YfEBuwlijrgeGQaiV4F9AsqWOjiA&sid=a633164c0204208b&mode=gun&serviceName=a1ce27e6#NEW
 vless://1a84364b-0e9b-4250-a8a9-463324fefae6@cp.fun4.cloud:443?encryption=none&security=tls&sni=netvl.1584vna2285.workers.dev&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=netvl.1584vna2285.workers.dev&path=%3Fed%3D2048#neww
 vless://1a84364b-0e9b-4250-a8a9-463324fefae6@cp.fun4.cloud:443?encryption=none&security=tls&sni=freee.arasto-qen9984.workers.dev&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=freee.arasto-qen9984.workers.dev&path=%3Fed%3D2048#new
