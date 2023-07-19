@@ -45,3 +45,7 @@ vless://1a84364b-0e9b-4250-a8a9-463324fefae6@5.188.121.184:443?security=tls&sni=
 vless://1a84364b-0e9b-4250-a8a9-463324fefae6@1.37.77.98:443?security=tls&sni=w0rker.ddns.net&fp=chrome&type=ws&path=?ed%3D2048&host=w0rker.ddns.net#neww
 vless://1a84364b-0e9b-4250-a8a9-463324fefae6@5.101.68.8:443?security=tls&sni=w0rker.ddns.net&fp=chrome&type=ws&path=?ed%3D2048&host=w0rker.ddns.net#neww
 vless://1a84364b-0e9b-4250-a8a9-463324fefae6@92.223.120.13:443?security=tls&sni=w0rker.ddns.net&fp=chrome&type=ws&path=?ed%3D2048&host=w0rker.ddns.net#neww
+
+vmess://eyJhZGQiOiJjcC5mdW40LmNsb3VkIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJva3RldG8uY2V5cHRvcHVuay5mdW4iLCJpZCI6ImI5YmJlZmU2LWY0ZDYtNDU4OS05ZmExLTNmMDVlOTM3ZGZiOSIsIm5ldCI6IndzIiwicGF0aCI6Ii92bWVzcyIsInBvcnQiOiI0NDMiLCJwcyI6Ik9rdGV0by1WTSIsInNjeSI6ImF1dG8iLCJzbmkiOiJva3RldG8uY2V5cHRvcHVuay5mdW4iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+trojan://b9bbefe6-f4d6-4589-9fa1-3f05e937dfb9@cp.fun4.cloud:443?path=%2Ftrojan&security=tls&host=okteto.ceyptopunk.fun&fp=chrome&type=ws&sni=okteto.ceyptopunk.fun#Okteto-TR
+vless://b9bbefe6-f4d6-4589-9fa1-3f05e937dfb9@cp.fun4.cloud:443?path=%2Fvless&security=tls&encryption=none&host=okteto.ceyptopunk.fun&fp=chrome&type=ws&sni=okteto.ceyptopunk.fun#Okteto-VL
