@@ -1,3 +1,9 @@
+
+vless://4f1df544-8e02-47ec-a750-49034040fc09@de-01.duckhost.pro:8192?encryption=none&security=none&type=ws&host=de-01.duckhost.pro&path=%3Fed%3D2048#duckhost
+vless://4f1df544-8e02-47ec-a750-49034040fc09@cp.fun4.cloud:443?encryption=none&security=tls&sni=duckhost.fun4.cloud&fp=chrome&type=ws&host=duckhost.fun4.cloud&path=%2F%3Fed%3D2048#duckhost.fun4.cloud
+vless://4f1df544-8e02-47ec-a750-49034040fc09@cp.fun4.cloud:443?encryption=none&security=tls&sni=duckhost.fun4.cloud&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=duckhost.fun4.cloud&path=%2F%3Fed%3D2048#duckhost.fun4.cloud
+
+
 vless://4f1df544-8e02-47ec-a750-49034040fc09@de-01.duckhost.pro:8192?encryption=none&security=none&type=ws&host=de-01.duckhost.pro&path=%3Fed%3D2048#duckhost
 vless://82b6274b-6f4c-4bbd-a12f-92483b0a10c0@skk.moe:8443?encryption=none&security=tls&sni=neone.ceyptopunk.fun&fp=random&type=ws&host=neone.ceyptopunk.fun&path=%2F%3Fed%3D2048#neone.ceyptopunk.fun
 vless://82b6274b-6f4c-4bbd-a12f-92483b0a10c0@cp.fun4.cloud:8880?encryption=none&security=none&type=ws&host=neo.1584vna2285.workers.dev&path=%2F%3Fed%3D2048#neo.1584vna2285.workers.dev
