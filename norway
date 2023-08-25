@@ -1,0 +1,496 @@
+####################################
+##  reality  de.wikipedia.org  http:80
+####################################
+####################################
+##  reality  de.wikipedia.org  tls:443
+####################################
+
+# reality_XTLS_direct_vless de.wikipedia.org 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=de.wikipedia.org&type=tcp&alpn=h2&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=-IhkYQn-bs-oRurBXDVSnQyNlviUkWqau8pn20lu2Rw&sid=e18f#de.wikipedia.org_reality_XTLS_direct_vless
+
+
+
+
+####################################
+##  direct  sub.fun4.cloud  http:80
+####################################
+
+# http_WS_direct_vmess sub.fun4.cloud 
+vmess://eyJ2IjogIjIiLCAicHMiOiAic3ViLmZ1bjQuY2xvdWRfaHR0cF9XU19kaXJlY3Rfdm1lc3MiLCAiYWRkIjogInN1Yi5mdW40LmNsb3VkIiwgInBvcnQiOiA4MCwgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJzdWIuZnVuNC5jbG91ZCIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogIiIsICJzbmkiOiAic3ViLmZ1bjQuY2xvdWQiLCAiZnAiOiAiY2hyb21lIn0=
+####################################
+##  direct  sub.fun4.cloud  tls:443
+####################################
+
+# tls_h2_XTLS_direct_vless sub.fun4.cloud 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=tcp&alpn=h2&host=sub.fun4.cloud&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=tls#sub.fun4.cloud_tls_h2_XTLS_direct_vless
+
+# tls_h2_WS_direct_vless sub.fun4.cloud 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=ws&alpn=h2&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=sub.fun4.cloud&encryption=none&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_h2_WS_direct_vless
+
+# tls_h2_WS_direct_trojan sub.fun4.cloud 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=ws&alpn=h2&path=/Hqg9600bjrwvawE6AGnKgBD&host=sub.fun4.cloud&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_h2_WS_direct_trojan
+
+# tls_h2_WS_direct_vmess sub.fun4.cloud 
+vmess://eyJ2IjogIjIiLCAicHMiOiAic3ViLmZ1bjQuY2xvdWRfdGxzX2gyX1dTX2RpcmVjdF92bWVzcyIsICJhZGQiOiAic3ViLmZ1bjQuY2xvdWQiLCAicG9ydCI6IDQ0MywgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJzdWIuZnVuNC5jbG91ZCIsICJhbHBuIjogImgyIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogInRscyIsICJzbmkiOiAic3ViLmZ1bjQuY2xvdWQiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_h2_grpc_direct_vless sub.fun4.cloud 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=grpc&alpn=h2&path=Xbp0A4NxNi2VuNAPCnOm&host=sub.fun4.cloud&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_h2_grpc_direct_vless
+
+# tls_h2_grpc_direct_trojan sub.fun4.cloud 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=grpc&alpn=h2&path=Hqg9600bjrwvNAPCnOm&host=sub.fun4.cloud&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_h2_grpc_direct_trojan
+
+# tls_h2_grpc_direct_vmess sub.fun4.cloud 
+vmess://eyJ2IjogIjIiLCAicHMiOiAic3ViLmZ1bjQuY2xvdWRfdGxzX2gyX2dycGNfZGlyZWN0X3ZtZXNzIiwgImFkZCI6ICJzdWIuZnVuNC5jbG91ZCIsICJwb3J0IjogNDQzLCAiaWQiOiAiODlhZGNmZDYtY2Q0Ni00Yzg3LWIyNTItNmVmNWY2OTQzYjg1IiwgImFpZCI6IDAsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJndW4iLCAiaG9zdCI6ICJzdWIuZnVuNC5jbG91ZCIsICJhbHBuIjogImgyIiwgInBhdGgiOiAiUjJJRFhkRUZOQVBDbk9tIiwgInRscyI6ICJ0bHMiLCAic25pIjogInN1Yi5mdW40LmNsb3VkIiwgImZwIjogImNocm9tZSJ9
+
+# tls_h2_faketls_direct_ss sub.fun4.cloud 
+ss://ab3a361c-5e69-4927-96fb-f064f963770c@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=faketls&alpn=h2&host=sub.fun4.cloud&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_h2_faketls_direct_ss
+
+# tls_h2_WS_direct_v2ray sub.fun4.cloud 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@sub.fun4.cloud:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Dsub.fun4.cloud%3Btls%3Budp-over-tcp=true#sub.fun4.cloud_tls_h2_WS_direct_v2ray
+
+# tls_h2_shadowtls_direct_ss sub.fun4.cloud 
+ss://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=shadowtls&alpn=h2&host=sub.fun4.cloud&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_h2_shadowtls_direct_ss
+
+# tls_XTLS_direct_vless sub.fun4.cloud 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=tcp&alpn=http/1.1&host=sub.fun4.cloud&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=tls#sub.fun4.cloud_tls_XTLS_direct_vless
+
+# tls_WS_direct_vless sub.fun4.cloud 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=ws&alpn=http/1.1&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=sub.fun4.cloud&encryption=none&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_WS_direct_vless
+
+# tls_WS_direct_trojan sub.fun4.cloud 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=ws&alpn=http/1.1&path=/Hqg9600bjrwvawE6AGnKgBD&host=sub.fun4.cloud&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_WS_direct_trojan
+
+# tls_WS_direct_vmess sub.fun4.cloud 
+vmess://eyJ2IjogIjIiLCAicHMiOiAic3ViLmZ1bjQuY2xvdWRfdGxzX1dTX2RpcmVjdF92bWVzcyIsICJhZGQiOiAic3ViLmZ1bjQuY2xvdWQiLCAicG9ydCI6IDQ0MywgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJzdWIuZnVuNC5jbG91ZCIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogInRscyIsICJzbmkiOiAic3ViLmZ1bjQuY2xvdWQiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_grpc_direct_vless sub.fun4.cloud 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=grpc&alpn=http/1.1&path=Xbp0A4NxNi2VuNAPCnOm&host=sub.fun4.cloud&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_grpc_direct_vless
+
+# tls_grpc_direct_trojan sub.fun4.cloud 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=grpc&alpn=http/1.1&path=Hqg9600bjrwvNAPCnOm&host=sub.fun4.cloud&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_grpc_direct_trojan
+
+# tls_grpc_direct_vmess sub.fun4.cloud 
+vmess://eyJ2IjogIjIiLCAicHMiOiAic3ViLmZ1bjQuY2xvdWRfdGxzX2dycGNfZGlyZWN0X3ZtZXNzIiwgImFkZCI6ICJzdWIuZnVuNC5jbG91ZCIsICJwb3J0IjogNDQzLCAiaWQiOiAiODlhZGNmZDYtY2Q0Ni00Yzg3LWIyNTItNmVmNWY2OTQzYjg1IiwgImFpZCI6IDAsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJndW4iLCAiaG9zdCI6ICJzdWIuZnVuNC5jbG91ZCIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiUjJJRFhkRUZOQVBDbk9tIiwgInRscyI6ICJ0bHMiLCAic25pIjogInN1Yi5mdW40LmNsb3VkIiwgImZwIjogImNocm9tZSJ9
+
+# tls_faketls_direct_ss sub.fun4.cloud 
+ss://ab3a361c-5e69-4927-96fb-f064f963770c@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=faketls&alpn=http/1.1&host=sub.fun4.cloud&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_faketls_direct_ss
+
+# tls_WS_direct_v2ray sub.fun4.cloud 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@sub.fun4.cloud:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Dsub.fun4.cloud%3Btls%3Budp-over-tcp=true#sub.fun4.cloud_tls_WS_direct_v2ray
+
+# tls_shadowtls_direct_ss sub.fun4.cloud 
+ss://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=sub.fun4.cloud&type=shadowtls&alpn=http/1.1&host=sub.fun4.cloud&fp=chrome&headerType=None&security=tls#sub.fun4.cloud_tls_shadowtls_direct_ss
+
+
+
+
+####################################
+##  cdn  Arvan  http:80
+####################################
+
+# http_WS_CDN_vmess Arvan 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQXJ2YW5faHR0cF9XU19DRE5fdm1lc3MiLCAiYWRkIjogIm5hcnZhbi5hcjRzMi5pciIsICJwb3J0IjogODAsICJpZCI6ICI4OWFkY2ZkNi1jZDQ2LTRjODctYjI1Mi02ZWY1ZjY5NDNiODUiLCAiYWlkIjogMCwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAibmFydmFuLmFyNHMyLmlyIiwgImFscG4iOiAiaHR0cC8xLjEiLCAicGF0aCI6ICIvUjJJRFhkRUZhd0U2QUduS2dCRCIsICJ0bHMiOiAiIiwgInNuaSI6ICJuYXJ2YW4uYXI0czIuaXIiLCAiZnAiOiAiY2hyb21lIn0=
+####################################
+##  cdn  Arvan  tls:443
+####################################
+
+# tls_h2_WS_CDN_vless Arvan 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@narvan.ar4s2.ir:443?hiddify=1&sni=narvan.ar4s2.ir&type=ws&alpn=h2&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=narvan.ar4s2.ir&encryption=none&fp=chrome&headerType=None&security=tls#Arvan_tls_h2_WS_CDN_vless
+
+# tls_h2_WS_CDN_trojan Arvan 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@narvan.ar4s2.ir:443?hiddify=1&sni=narvan.ar4s2.ir&type=ws&alpn=h2&path=/Hqg9600bjrwvawE6AGnKgBD&host=narvan.ar4s2.ir&fp=chrome&headerType=None&security=tls#Arvan_tls_h2_WS_CDN_trojan
+
+# tls_h2_WS_CDN_vmess Arvan 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQXJ2YW5fdGxzX2gyX1dTX0NETl92bWVzcyIsICJhZGQiOiAibmFydmFuLmFyNHMyLmlyIiwgInBvcnQiOiA0NDMsICJpZCI6ICI4OWFkY2ZkNi1jZDQ2LTRjODctYjI1Mi02ZWY1ZjY5NDNiODUiLCAiYWlkIjogMCwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAibmFydmFuLmFyNHMyLmlyIiwgImFscG4iOiAiaDIiLCAicGF0aCI6ICIvUjJJRFhkRUZhd0U2QUduS2dCRCIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJuYXJ2YW4uYXI0czIuaXIiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_h2_grpc_CDN_vless Arvan 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@narvan.ar4s2.ir:443?hiddify=1&sni=narvan.ar4s2.ir&type=grpc&alpn=h2&path=Xbp0A4NxNi2VuNAPCnOm&host=narvan.ar4s2.ir&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#Arvan_tls_h2_grpc_CDN_vless
+
+# tls_h2_grpc_CDN_trojan Arvan 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@narvan.ar4s2.ir:443?hiddify=1&sni=narvan.ar4s2.ir&type=grpc&alpn=h2&path=Hqg9600bjrwvNAPCnOm&host=narvan.ar4s2.ir&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#Arvan_tls_h2_grpc_CDN_trojan
+
+# tls_h2_grpc_CDN_vmess Arvan 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQXJ2YW5fdGxzX2gyX2dycGNfQ0ROX3ZtZXNzIiwgImFkZCI6ICJuYXJ2YW4uYXI0czIuaXIiLCAicG9ydCI6IDQ0MywgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJncnBjIiwgInR5cGUiOiAiZ3VuIiwgImhvc3QiOiAibmFydmFuLmFyNHMyLmlyIiwgImFscG4iOiAiaDIiLCAicGF0aCI6ICJSMklEWGRFRk5BUENuT20iLCAidGxzIjogInRscyIsICJzbmkiOiAibmFydmFuLmFyNHMyLmlyIiwgImZwIjogImNocm9tZSJ9
+
+# tls_h2_WS_CDN_v2ray Arvan 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@narvan.ar4s2.ir:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Dnarvan.ar4s2.ir%3Btls%3Budp-over-tcp=true#Arvan_tls_h2_WS_CDN_v2ray
+
+# tls_WS_CDN_vless Arvan 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@narvan.ar4s2.ir:443?hiddify=1&sni=narvan.ar4s2.ir&type=ws&alpn=http/1.1&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=narvan.ar4s2.ir&encryption=none&fp=chrome&headerType=None&security=tls#Arvan_tls_WS_CDN_vless
+
+# tls_WS_CDN_trojan Arvan 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@narvan.ar4s2.ir:443?hiddify=1&sni=narvan.ar4s2.ir&type=ws&alpn=http/1.1&path=/Hqg9600bjrwvawE6AGnKgBD&host=narvan.ar4s2.ir&fp=chrome&headerType=None&security=tls#Arvan_tls_WS_CDN_trojan
+
+# tls_WS_CDN_vmess Arvan 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQXJ2YW5fdGxzX1dTX0NETl92bWVzcyIsICJhZGQiOiAibmFydmFuLmFyNHMyLmlyIiwgInBvcnQiOiA0NDMsICJpZCI6ICI4OWFkY2ZkNi1jZDQ2LTRjODctYjI1Mi02ZWY1ZjY5NDNiODUiLCAiYWlkIjogMCwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAibmFydmFuLmFyNHMyLmlyIiwgImFscG4iOiAiaHR0cC8xLjEiLCAicGF0aCI6ICIvUjJJRFhkRUZhd0U2QUduS2dCRCIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJuYXJ2YW4uYXI0czIuaXIiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_grpc_CDN_vless Arvan 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@narvan.ar4s2.ir:443?hiddify=1&sni=narvan.ar4s2.ir&type=grpc&alpn=http/1.1&path=Xbp0A4NxNi2VuNAPCnOm&host=narvan.ar4s2.ir&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#Arvan_tls_grpc_CDN_vless
+
+# tls_grpc_CDN_trojan Arvan 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@narvan.ar4s2.ir:443?hiddify=1&sni=narvan.ar4s2.ir&type=grpc&alpn=http/1.1&path=Hqg9600bjrwvNAPCnOm&host=narvan.ar4s2.ir&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#Arvan_tls_grpc_CDN_trojan
+
+# tls_grpc_CDN_vmess Arvan 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQXJ2YW5fdGxzX2dycGNfQ0ROX3ZtZXNzIiwgImFkZCI6ICJuYXJ2YW4uYXI0czIuaXIiLCAicG9ydCI6IDQ0MywgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJncnBjIiwgInR5cGUiOiAiZ3VuIiwgImhvc3QiOiAibmFydmFuLmFyNHMyLmlyIiwgImFscG4iOiAiaHR0cC8xLjEiLCAicGF0aCI6ICJSMklEWGRFRk5BUENuT20iLCAidGxzIjogInRscyIsICJzbmkiOiAibmFydmFuLmFyNHMyLmlyIiwgImZwIjogImNocm9tZSJ9
+
+# tls_WS_CDN_v2ray Arvan 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@narvan.ar4s2.ir:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Dnarvan.ar4s2.ir%3Btls%3Budp-over-tcp=true#Arvan_tls_WS_CDN_v2ray
+
+
+
+
+####################################
+##  cdn  Arvan  http:80
+####################################
+
+# http_WS_CDN_vmess Arvan 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQXJ2YW5faHR0cF9XU19DRE5fdm1lc3MiLCAiYWRkIjogImNsb3VkLmFyNHMyLmlyIiwgInBvcnQiOiA4MCwgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJjbG91ZC5hcjRzMi5pciIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogIiIsICJzbmkiOiAiY2xvdWQuYXI0czIuaXIiLCAiZnAiOiAiY2hyb21lIn0=
+####################################
+##  cdn  Arvan  tls:443
+####################################
+
+# tls_h2_WS_CDN_vless Arvan 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@cloud.ar4s2.ir:443?hiddify=1&sni=cloud.ar4s2.ir&type=ws&alpn=h2&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=cloud.ar4s2.ir&encryption=none&fp=chrome&headerType=None&security=tls#Arvan_tls_h2_WS_CDN_vless
+
+# tls_h2_WS_CDN_trojan Arvan 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@cloud.ar4s2.ir:443?hiddify=1&sni=cloud.ar4s2.ir&type=ws&alpn=h2&path=/Hqg9600bjrwvawE6AGnKgBD&host=cloud.ar4s2.ir&fp=chrome&headerType=None&security=tls#Arvan_tls_h2_WS_CDN_trojan
+
+# tls_h2_WS_CDN_vmess Arvan 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQXJ2YW5fdGxzX2gyX1dTX0NETl92bWVzcyIsICJhZGQiOiAiY2xvdWQuYXI0czIuaXIiLCAicG9ydCI6IDQ0MywgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJjbG91ZC5hcjRzMi5pciIsICJhbHBuIjogImgyIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogInRscyIsICJzbmkiOiAiY2xvdWQuYXI0czIuaXIiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_h2_grpc_CDN_vless Arvan 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@cloud.ar4s2.ir:443?hiddify=1&sni=cloud.ar4s2.ir&type=grpc&alpn=h2&path=Xbp0A4NxNi2VuNAPCnOm&host=cloud.ar4s2.ir&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#Arvan_tls_h2_grpc_CDN_vless
+
+# tls_h2_grpc_CDN_trojan Arvan 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@cloud.ar4s2.ir:443?hiddify=1&sni=cloud.ar4s2.ir&type=grpc&alpn=h2&path=Hqg9600bjrwvNAPCnOm&host=cloud.ar4s2.ir&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#Arvan_tls_h2_grpc_CDN_trojan
+
+# tls_h2_grpc_CDN_vmess Arvan 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQXJ2YW5fdGxzX2gyX2dycGNfQ0ROX3ZtZXNzIiwgImFkZCI6ICJjbG91ZC5hcjRzMi5pciIsICJwb3J0IjogNDQzLCAiaWQiOiAiODlhZGNmZDYtY2Q0Ni00Yzg3LWIyNTItNmVmNWY2OTQzYjg1IiwgImFpZCI6IDAsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJndW4iLCAiaG9zdCI6ICJjbG91ZC5hcjRzMi5pciIsICJhbHBuIjogImgyIiwgInBhdGgiOiAiUjJJRFhkRUZOQVBDbk9tIiwgInRscyI6ICJ0bHMiLCAic25pIjogImNsb3VkLmFyNHMyLmlyIiwgImZwIjogImNocm9tZSJ9
+
+# tls_h2_WS_CDN_v2ray Arvan 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@cloud.ar4s2.ir:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Dcloud.ar4s2.ir%3Btls%3Budp-over-tcp=true#Arvan_tls_h2_WS_CDN_v2ray
+
+# tls_WS_CDN_vless Arvan 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@cloud.ar4s2.ir:443?hiddify=1&sni=cloud.ar4s2.ir&type=ws&alpn=http/1.1&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=cloud.ar4s2.ir&encryption=none&fp=chrome&headerType=None&security=tls#Arvan_tls_WS_CDN_vless
+
+# tls_WS_CDN_trojan Arvan 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@cloud.ar4s2.ir:443?hiddify=1&sni=cloud.ar4s2.ir&type=ws&alpn=http/1.1&path=/Hqg9600bjrwvawE6AGnKgBD&host=cloud.ar4s2.ir&fp=chrome&headerType=None&security=tls#Arvan_tls_WS_CDN_trojan
+
+# tls_WS_CDN_vmess Arvan 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQXJ2YW5fdGxzX1dTX0NETl92bWVzcyIsICJhZGQiOiAiY2xvdWQuYXI0czIuaXIiLCAicG9ydCI6IDQ0MywgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJjbG91ZC5hcjRzMi5pciIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogInRscyIsICJzbmkiOiAiY2xvdWQuYXI0czIuaXIiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_grpc_CDN_vless Arvan 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@cloud.ar4s2.ir:443?hiddify=1&sni=cloud.ar4s2.ir&type=grpc&alpn=http/1.1&path=Xbp0A4NxNi2VuNAPCnOm&host=cloud.ar4s2.ir&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#Arvan_tls_grpc_CDN_vless
+
+# tls_grpc_CDN_trojan Arvan 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@cloud.ar4s2.ir:443?hiddify=1&sni=cloud.ar4s2.ir&type=grpc&alpn=http/1.1&path=Hqg9600bjrwvNAPCnOm&host=cloud.ar4s2.ir&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#Arvan_tls_grpc_CDN_trojan
+
+# tls_grpc_CDN_vmess Arvan 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQXJ2YW5fdGxzX2dycGNfQ0ROX3ZtZXNzIiwgImFkZCI6ICJjbG91ZC5hcjRzMi5pciIsICJwb3J0IjogNDQzLCAiaWQiOiAiODlhZGNmZDYtY2Q0Ni00Yzg3LWIyNTItNmVmNWY2OTQzYjg1IiwgImFpZCI6IDAsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJndW4iLCAiaG9zdCI6ICJjbG91ZC5hcjRzMi5pciIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiUjJJRFhkRUZOQVBDbk9tIiwgInRscyI6ICJ0bHMiLCAic25pIjogImNsb3VkLmFyNHMyLmlyIiwgImZwIjogImNocm9tZSJ9
+
+# tls_WS_CDN_v2ray Arvan 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@cloud.ar4s2.ir:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Dcloud.ar4s2.ir%3Btls%3Budp-over-tcp=true#Arvan_tls_WS_CDN_v2ray
+
+
+
+
+####################################
+##  cdn  CDN  http:80
+####################################
+
+# http_WS_CDN_vmess CDN 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQ0ROX2h0dHBfV1NfQ0ROX3ZtZXNzIiwgImFkZCI6ICJub3J3YXkuZnVuNC5jbG91ZCIsICJwb3J0IjogODAsICJpZCI6ICI4OWFkY2ZkNi1jZDQ2LTRjODctYjI1Mi02ZWY1ZjY5NDNiODUiLCAiYWlkIjogMCwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAibm9yd2F5LmZ1bjQuY2xvdWQiLCAiYWxwbiI6ICJodHRwLzEuMSIsICJwYXRoIjogIi9SMklEWGRFRmF3RTZBR25LZ0JEIiwgInRscyI6ICIiLCAic25pIjogIm5vcndheS5mdW40LmNsb3VkIiwgImZwIjogImNocm9tZSJ9
+####################################
+##  cdn  CDN  tls:443
+####################################
+
+# tls_h2_WS_CDN_vless CDN 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@norway.fun4.cloud:443?hiddify=1&sni=norway.fun4.cloud&type=ws&alpn=h2&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=norway.fun4.cloud&encryption=none&fp=chrome&headerType=None&security=tls#CDN_tls_h2_WS_CDN_vless
+
+# tls_h2_WS_CDN_trojan CDN 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@norway.fun4.cloud:443?hiddify=1&sni=norway.fun4.cloud&type=ws&alpn=h2&path=/Hqg9600bjrwvawE6AGnKgBD&host=norway.fun4.cloud&fp=chrome&headerType=None&security=tls#CDN_tls_h2_WS_CDN_trojan
+
+# tls_h2_WS_CDN_vmess CDN 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQ0ROX3Rsc19oMl9XU19DRE5fdm1lc3MiLCAiYWRkIjogIm5vcndheS5mdW40LmNsb3VkIiwgInBvcnQiOiA0NDMsICJpZCI6ICI4OWFkY2ZkNi1jZDQ2LTRjODctYjI1Mi02ZWY1ZjY5NDNiODUiLCAiYWlkIjogMCwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAibm9yd2F5LmZ1bjQuY2xvdWQiLCAiYWxwbiI6ICJoMiIsICJwYXRoIjogIi9SMklEWGRFRmF3RTZBR25LZ0JEIiwgInRscyI6ICJ0bHMiLCAic25pIjogIm5vcndheS5mdW40LmNsb3VkIiwgImZwIjogImNocm9tZSJ9
+
+# tls_h2_grpc_CDN_vless CDN 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@norway.fun4.cloud:443?hiddify=1&sni=norway.fun4.cloud&type=grpc&alpn=h2&path=Xbp0A4NxNi2VuNAPCnOm&host=norway.fun4.cloud&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#CDN_tls_h2_grpc_CDN_vless
+
+# tls_h2_grpc_CDN_trojan CDN 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@norway.fun4.cloud:443?hiddify=1&sni=norway.fun4.cloud&type=grpc&alpn=h2&path=Hqg9600bjrwvNAPCnOm&host=norway.fun4.cloud&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#CDN_tls_h2_grpc_CDN_trojan
+
+# tls_h2_grpc_CDN_vmess CDN 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQ0ROX3Rsc19oMl9ncnBjX0NETl92bWVzcyIsICJhZGQiOiAibm9yd2F5LmZ1bjQuY2xvdWQiLCAicG9ydCI6IDQ0MywgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJncnBjIiwgInR5cGUiOiAiZ3VuIiwgImhvc3QiOiAibm9yd2F5LmZ1bjQuY2xvdWQiLCAiYWxwbiI6ICJoMiIsICJwYXRoIjogIlIySURYZEVGTkFQQ25PbSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJub3J3YXkuZnVuNC5jbG91ZCIsICJmcCI6ICJjaHJvbWUifQ==
+
+# tls_h2_WS_CDN_v2ray CDN 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@norway.fun4.cloud:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Dnorway.fun4.cloud%3Btls%3Budp-over-tcp=true#CDN_tls_h2_WS_CDN_v2ray
+
+# tls_WS_CDN_vless CDN 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@norway.fun4.cloud:443?hiddify=1&sni=norway.fun4.cloud&type=ws&alpn=http/1.1&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=norway.fun4.cloud&encryption=none&fp=chrome&headerType=None&security=tls#CDN_tls_WS_CDN_vless
+
+# tls_WS_CDN_trojan CDN 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@norway.fun4.cloud:443?hiddify=1&sni=norway.fun4.cloud&type=ws&alpn=http/1.1&path=/Hqg9600bjrwvawE6AGnKgBD&host=norway.fun4.cloud&fp=chrome&headerType=None&security=tls#CDN_tls_WS_CDN_trojan
+
+# tls_WS_CDN_vmess CDN 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQ0ROX3Rsc19XU19DRE5fdm1lc3MiLCAiYWRkIjogIm5vcndheS5mdW40LmNsb3VkIiwgInBvcnQiOiA0NDMsICJpZCI6ICI4OWFkY2ZkNi1jZDQ2LTRjODctYjI1Mi02ZWY1ZjY5NDNiODUiLCAiYWlkIjogMCwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAibm9yd2F5LmZ1bjQuY2xvdWQiLCAiYWxwbiI6ICJodHRwLzEuMSIsICJwYXRoIjogIi9SMklEWGRFRmF3RTZBR25LZ0JEIiwgInRscyI6ICJ0bHMiLCAic25pIjogIm5vcndheS5mdW40LmNsb3VkIiwgImZwIjogImNocm9tZSJ9
+
+# tls_grpc_CDN_vless CDN 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@norway.fun4.cloud:443?hiddify=1&sni=norway.fun4.cloud&type=grpc&alpn=http/1.1&path=Xbp0A4NxNi2VuNAPCnOm&host=norway.fun4.cloud&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#CDN_tls_grpc_CDN_vless
+
+# tls_grpc_CDN_trojan CDN 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@norway.fun4.cloud:443?hiddify=1&sni=norway.fun4.cloud&type=grpc&alpn=http/1.1&path=Hqg9600bjrwvNAPCnOm&host=norway.fun4.cloud&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#CDN_tls_grpc_CDN_trojan
+
+# tls_grpc_CDN_vmess CDN 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQ0ROX3Rsc19ncnBjX0NETl92bWVzcyIsICJhZGQiOiAibm9yd2F5LmZ1bjQuY2xvdWQiLCAicG9ydCI6IDQ0MywgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJncnBjIiwgInR5cGUiOiAiZ3VuIiwgImhvc3QiOiAibm9yd2F5LmZ1bjQuY2xvdWQiLCAiYWxwbiI6ICJodHRwLzEuMSIsICJwYXRoIjogIlIySURYZEVGTkFQQ25PbSIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJub3J3YXkuZnVuNC5jbG91ZCIsICJmcCI6ICJjaHJvbWUifQ==
+
+# tls_WS_CDN_v2ray CDN 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@norway.fun4.cloud:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Dnorway.fun4.cloud%3Btls%3Budp-over-tcp=true#CDN_tls_WS_CDN_v2ray
+
+
+
+
+####################################
+## Auto  auto_cdn_ip  CDN  http:80
+####################################
+
+# http_WS_CDN_vmess CDN 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQ0ROX2h0dHBfV1NfQ0ROX3ZtZXNzIiwgImFkZCI6ICI0NS45NC4xNjkuMTQyIiwgInBvcnQiOiA4MCwgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJpcmFub3J3YXkuZnVuNC5jbG91ZCIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogIiIsICJzbmkiOiAiaXJhbm9yd2F5LmZ1bjQuY2xvdWQiLCAiZnAiOiAiY2hyb21lIn0=
+####################################
+## Auto  auto_cdn_ip  CDN  tls:443
+####################################
+
+# tls_h2_WS_CDN_vless CDN 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@45.94.169.142:443?hiddify=1&sni=iranorway.fun4.cloud&type=ws&alpn=h2&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=iranorway.fun4.cloud&encryption=none&fp=chrome&headerType=None&security=tls#CDN_tls_h2_WS_CDN_vless
+
+# tls_h2_WS_CDN_trojan CDN 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@45.94.169.142:443?hiddify=1&sni=iranorway.fun4.cloud&type=ws&alpn=h2&path=/Hqg9600bjrwvawE6AGnKgBD&host=iranorway.fun4.cloud&fp=chrome&headerType=None&security=tls#CDN_tls_h2_WS_CDN_trojan
+
+# tls_h2_WS_CDN_vmess CDN 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQ0ROX3Rsc19oMl9XU19DRE5fdm1lc3MiLCAiYWRkIjogIjQ1Ljk0LjE2OS4xNDIiLCAicG9ydCI6IDQ0MywgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJpcmFub3J3YXkuZnVuNC5jbG91ZCIsICJhbHBuIjogImgyIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogInRscyIsICJzbmkiOiAiaXJhbm9yd2F5LmZ1bjQuY2xvdWQiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_h2_grpc_CDN_vless CDN 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@45.94.169.142:443?hiddify=1&sni=iranorway.fun4.cloud&type=grpc&alpn=h2&path=Xbp0A4NxNi2VuNAPCnOm&host=iranorway.fun4.cloud&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#CDN_tls_h2_grpc_CDN_vless
+
+# tls_h2_grpc_CDN_trojan CDN 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@45.94.169.142:443?hiddify=1&sni=iranorway.fun4.cloud&type=grpc&alpn=h2&path=Hqg9600bjrwvNAPCnOm&host=iranorway.fun4.cloud&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#CDN_tls_h2_grpc_CDN_trojan
+
+# tls_h2_grpc_CDN_vmess CDN 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQ0ROX3Rsc19oMl9ncnBjX0NETl92bWVzcyIsICJhZGQiOiAiNDUuOTQuMTY5LjE0MiIsICJwb3J0IjogNDQzLCAiaWQiOiAiODlhZGNmZDYtY2Q0Ni00Yzg3LWIyNTItNmVmNWY2OTQzYjg1IiwgImFpZCI6IDAsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJndW4iLCAiaG9zdCI6ICJpcmFub3J3YXkuZnVuNC5jbG91ZCIsICJhbHBuIjogImgyIiwgInBhdGgiOiAiUjJJRFhkRUZOQVBDbk9tIiwgInRscyI6ICJ0bHMiLCAic25pIjogImlyYW5vcndheS5mdW40LmNsb3VkIiwgImZwIjogImNocm9tZSJ9
+
+# tls_h2_WS_CDN_v2ray CDN 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@45.94.169.142:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Diranorway.fun4.cloud%3Btls%3Budp-over-tcp=true#CDN_tls_h2_WS_CDN_v2ray
+
+# tls_WS_CDN_vless CDN 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@45.94.169.142:443?hiddify=1&sni=iranorway.fun4.cloud&type=ws&alpn=http/1.1&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=iranorway.fun4.cloud&encryption=none&fp=chrome&headerType=None&security=tls#CDN_tls_WS_CDN_vless
+
+# tls_WS_CDN_trojan CDN 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@45.94.169.142:443?hiddify=1&sni=iranorway.fun4.cloud&type=ws&alpn=http/1.1&path=/Hqg9600bjrwvawE6AGnKgBD&host=iranorway.fun4.cloud&fp=chrome&headerType=None&security=tls#CDN_tls_WS_CDN_trojan
+
+# tls_WS_CDN_vmess CDN 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQ0ROX3Rsc19XU19DRE5fdm1lc3MiLCAiYWRkIjogIjQ1Ljk0LjE2OS4xNDIiLCAicG9ydCI6IDQ0MywgImlkIjogIjg5YWRjZmQ2LWNkNDYtNGM4Ny1iMjUyLTZlZjVmNjk0M2I4NSIsICJhaWQiOiAwLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJpcmFub3J3YXkuZnVuNC5jbG91ZCIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogInRscyIsICJzbmkiOiAiaXJhbm9yd2F5LmZ1bjQuY2xvdWQiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_grpc_CDN_vless CDN 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@45.94.169.142:443?hiddify=1&sni=iranorway.fun4.cloud&type=grpc&alpn=http/1.1&path=Xbp0A4NxNi2VuNAPCnOm&host=iranorway.fun4.cloud&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#CDN_tls_grpc_CDN_vless
+
+# tls_grpc_CDN_trojan CDN 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@45.94.169.142:443?hiddify=1&sni=iranorway.fun4.cloud&type=grpc&alpn=http/1.1&path=Hqg9600bjrwvNAPCnOm&host=iranorway.fun4.cloud&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#CDN_tls_grpc_CDN_trojan
+
+# tls_grpc_CDN_vmess CDN 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiQ0ROX3Rsc19ncnBjX0NETl92bWVzcyIsICJhZGQiOiAiNDUuOTQuMTY5LjE0MiIsICJwb3J0IjogNDQzLCAiaWQiOiAiODlhZGNmZDYtY2Q0Ni00Yzg3LWIyNTItNmVmNWY2OTQzYjg1IiwgImFpZCI6IDAsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJndW4iLCAiaG9zdCI6ICJpcmFub3J3YXkuZnVuNC5jbG91ZCIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiUjJJRFhkRUZOQVBDbk9tIiwgInRscyI6ICJ0bHMiLCAic25pIjogImlyYW5vcndheS5mdW40LmNsb3VkIiwgImZwIjogImNocm9tZSJ9
+
+# tls_WS_CDN_v2ray CDN 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@45.94.169.142:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Diranorway.fun4.cloud%3Btls%3Budp-over-tcp=true#CDN_tls_WS_CDN_v2ray
+
+
+
+
+####################################
+##  direct  Direct  http:80
+####################################
+
+# http_WS_direct_vmess Direct 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiRGlyZWN0X2h0dHBfV1NfZGlyZWN0X3ZtZXNzIiwgImFkZCI6ICJpcmFuLmZ1bjQuY2xvdWQiLCAicG9ydCI6IDgwLCAiaWQiOiAiODlhZGNmZDYtY2Q0Ni00Yzg3LWIyNTItNmVmNWY2OTQzYjg1IiwgImFpZCI6IDAsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogImlyYW4uZnVuNC5jbG91ZCIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogIiIsICJzbmkiOiAiaXJhbi5mdW40LmNsb3VkIiwgImZwIjogImNocm9tZSJ9
+####################################
+##  direct  Direct  tls:443
+####################################
+
+# tls_h2_XTLS_direct_vless Direct 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=tcp&alpn=h2&host=iran.fun4.cloud&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=tls#Direct_tls_h2_XTLS_direct_vless
+
+# tls_h2_WS_direct_vless Direct 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=ws&alpn=h2&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=iran.fun4.cloud&encryption=none&fp=chrome&headerType=None&security=tls#Direct_tls_h2_WS_direct_vless
+
+# tls_h2_WS_direct_trojan Direct 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=ws&alpn=h2&path=/Hqg9600bjrwvawE6AGnKgBD&host=iran.fun4.cloud&fp=chrome&headerType=None&security=tls#Direct_tls_h2_WS_direct_trojan
+
+# tls_h2_WS_direct_vmess Direct 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiRGlyZWN0X3Rsc19oMl9XU19kaXJlY3Rfdm1lc3MiLCAiYWRkIjogImlyYW4uZnVuNC5jbG91ZCIsICJwb3J0IjogNDQzLCAiaWQiOiAiODlhZGNmZDYtY2Q0Ni00Yzg3LWIyNTItNmVmNWY2OTQzYjg1IiwgImFpZCI6IDAsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogImlyYW4uZnVuNC5jbG91ZCIsICJhbHBuIjogImgyIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogInRscyIsICJzbmkiOiAiaXJhbi5mdW40LmNsb3VkIiwgImZwIjogImNocm9tZSJ9
+
+# tls_h2_grpc_direct_vless Direct 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=grpc&alpn=h2&path=Xbp0A4NxNi2VuNAPCnOm&host=iran.fun4.cloud&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#Direct_tls_h2_grpc_direct_vless
+
+# tls_h2_grpc_direct_trojan Direct 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=grpc&alpn=h2&path=Hqg9600bjrwvNAPCnOm&host=iran.fun4.cloud&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#Direct_tls_h2_grpc_direct_trojan
+
+# tls_h2_grpc_direct_vmess Direct 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiRGlyZWN0X3Rsc19oMl9ncnBjX2RpcmVjdF92bWVzcyIsICJhZGQiOiAiaXJhbi5mdW40LmNsb3VkIiwgInBvcnQiOiA0NDMsICJpZCI6ICI4OWFkY2ZkNi1jZDQ2LTRjODctYjI1Mi02ZWY1ZjY5NDNiODUiLCAiYWlkIjogMCwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAiZ3JwYyIsICJ0eXBlIjogImd1biIsICJob3N0IjogImlyYW4uZnVuNC5jbG91ZCIsICJhbHBuIjogImgyIiwgInBhdGgiOiAiUjJJRFhkRUZOQVBDbk9tIiwgInRscyI6ICJ0bHMiLCAic25pIjogImlyYW4uZnVuNC5jbG91ZCIsICJmcCI6ICJjaHJvbWUifQ==
+
+# tls_h2_faketls_direct_ss Direct 
+ss://ab3a361c-5e69-4927-96fb-f064f963770c@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=faketls&alpn=h2&host=iran.fun4.cloud&fp=chrome&headerType=None&security=tls#Direct_tls_h2_faketls_direct_ss
+
+# tls_h2_WS_direct_v2ray Direct 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@iran.fun4.cloud:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Diran.fun4.cloud%3Btls%3Budp-over-tcp=true#Direct_tls_h2_WS_direct_v2ray
+
+# tls_h2_shadowtls_direct_ss Direct 
+ss://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=shadowtls&alpn=h2&host=iran.fun4.cloud&fp=chrome&headerType=None&security=tls#Direct_tls_h2_shadowtls_direct_ss
+
+# tls_XTLS_direct_vless Direct 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=tcp&alpn=http/1.1&host=iran.fun4.cloud&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=tls#Direct_tls_XTLS_direct_vless
+
+# tls_WS_direct_vless Direct 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=ws&alpn=http/1.1&path=/Xbp0A4NxNi2VuawE6AGnKgBD&host=iran.fun4.cloud&encryption=none&fp=chrome&headerType=None&security=tls#Direct_tls_WS_direct_vless
+
+# tls_WS_direct_trojan Direct 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=ws&alpn=http/1.1&path=/Hqg9600bjrwvawE6AGnKgBD&host=iran.fun4.cloud&fp=chrome&headerType=None&security=tls#Direct_tls_WS_direct_trojan
+
+# tls_WS_direct_vmess Direct 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiRGlyZWN0X3Rsc19XU19kaXJlY3Rfdm1lc3MiLCAiYWRkIjogImlyYW4uZnVuNC5jbG91ZCIsICJwb3J0IjogNDQzLCAiaWQiOiAiODlhZGNmZDYtY2Q0Ni00Yzg3LWIyNTItNmVmNWY2OTQzYjg1IiwgImFpZCI6IDAsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogImlyYW4uZnVuNC5jbG91ZCIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiL1IySURYZEVGYXdFNkFHbktnQkQiLCAidGxzIjogInRscyIsICJzbmkiOiAiaXJhbi5mdW40LmNsb3VkIiwgImZwIjogImNocm9tZSJ9
+
+# tls_grpc_direct_vless Direct 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=grpc&alpn=http/1.1&path=Xbp0A4NxNi2VuNAPCnOm&host=iran.fun4.cloud&serviceName=Xbp0A4NxNi2VuNAPCnOm&mode=gun&encryption=none&fp=chrome&headerType=None&security=tls#Direct_tls_grpc_direct_vless
+
+# tls_grpc_direct_trojan Direct 
+trojan://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=grpc&alpn=http/1.1&path=Hqg9600bjrwvNAPCnOm&host=iran.fun4.cloud&serviceName=Hqg9600bjrwvNAPCnOm&mode=gun&fp=chrome&headerType=None&security=tls#Direct_tls_grpc_direct_trojan
+
+# tls_grpc_direct_vmess Direct 
+vmess://eyJ2IjogIjIiLCAicHMiOiAiRGlyZWN0X3Rsc19ncnBjX2RpcmVjdF92bWVzcyIsICJhZGQiOiAiaXJhbi5mdW40LmNsb3VkIiwgInBvcnQiOiA0NDMsICJpZCI6ICI4OWFkY2ZkNi1jZDQ2LTRjODctYjI1Mi02ZWY1ZjY5NDNiODUiLCAiYWlkIjogMCwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAiZ3JwYyIsICJ0eXBlIjogImd1biIsICJob3N0IjogImlyYW4uZnVuNC5jbG91ZCIsICJhbHBuIjogImh0dHAvMS4xIiwgInBhdGgiOiAiUjJJRFhkRUZOQVBDbk9tIiwgInRscyI6ICJ0bHMiLCAic25pIjogImlyYW4uZnVuNC5jbG91ZCIsICJmcCI6ICJjaHJvbWUifQ==
+
+# tls_faketls_direct_ss Direct 
+ss://ab3a361c-5e69-4927-96fb-f064f963770c@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=faketls&alpn=http/1.1&host=iran.fun4.cloud&fp=chrome&headerType=None&security=tls#Direct_tls_faketls_direct_ss
+
+# tls_WS_direct_v2ray Direct 
+ss://proxy["encryption"]:ab3a361c-5e69-4927-96fb-f064f963770c@iran.fun4.cloud:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D/vJVS4agYVg8A9awE6AGnKgBD%3Bhost%3Diran.fun4.cloud%3Btls%3Budp-over-tcp=true#Direct_tls_WS_direct_v2ray
+
+# tls_shadowtls_direct_ss Direct 
+ss://89adcfd6-cd46-4c87-b252-6ef5f6943b85@iran.fun4.cloud:443?hiddify=1&sni=iran.fun4.cloud&type=shadowtls&alpn=http/1.1&host=iran.fun4.cloud&fp=chrome&headerType=None&security=tls#Direct_tls_shadowtls_direct_ss
+
+
+
+
+####################################
+##  reality  discord.com  http:80
+####################################
+####################################
+##  reality  discord.com  tls:443
+####################################
+
+# reality_XTLS_direct_vless discord.com 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=discord.com&type=tcp&alpn=h2&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=-IhkYQn-bs-oRurBXDVSnQyNlviUkWqau8pn20lu2Rw&sid=e18f#discord.com_reality_XTLS_direct_vless
+
+
+
+
+####################################
+##  reality  www.xbox.com  http:80
+####################################
+####################################
+##  reality  www.xbox.com  tls:443
+####################################
+
+# reality_XTLS_direct_vless www.xbox.com 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=www.xbox.com&type=tcp&alpn=h2&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=-IhkYQn-bs-oRurBXDVSnQyNlviUkWqau8pn20lu2Rw&sid=e18f#www.xbox.com_reality_XTLS_direct_vless
+
+
+
+
+####################################
+##  reality  apps.apple.com  http:80
+####################################
+####################################
+##  reality  apps.apple.com  tls:443
+####################################
+
+# reality_XTLS_direct_vless apps.apple.com 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=apps.apple.com&type=tcp&alpn=h2&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=-IhkYQn-bs-oRurBXDVSnQyNlviUkWqau8pn20lu2Rw&sid=e18f#apps.apple.com_reality_XTLS_direct_vless
+
+
+
+
+####################################
+##  reality  iranpress.com  http:80
+####################################
+####################################
+##  reality  iranpress.com  tls:443
+####################################
+
+# reality_XTLS_direct_vless iranpress.com 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=iranpress.com&type=tcp&alpn=h2&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=-IhkYQn-bs-oRurBXDVSnQyNlviUkWqau8pn20lu2Rw&sid=e18f#iranpress.com_reality_XTLS_direct_vless
+
+
+
+
+####################################
+##  reality  zula.ir  http:80
+####################################
+####################################
+##  reality  zula.ir  tls:443
+####################################
+
+# reality_XTLS_direct_vless zula.ir 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=zula.ir&type=tcp&alpn=h2&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=-IhkYQn-bs-oRurBXDVSnQyNlviUkWqau8pn20lu2Rw&sid=e18f#zula.ir_reality_XTLS_direct_vless
+
+
+
+
+####################################
+##  reality  www.speedtest.net  http:80
+####################################
+####################################
+##  reality  www.speedtest.net  tls:443
+####################################
+
+# reality_XTLS_direct_vless www.speedtest.net 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=www.speedtest.net&type=tcp&alpn=h2&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=-IhkYQn-bs-oRurBXDVSnQyNlviUkWqau8pn20lu2Rw&sid=e18f#www.speedtest.net_reality_XTLS_direct_vless
+
+
+
+
+####################################
+##  reality  www.canva.com  http:80
+####################################
+####################################
+##  reality  www.canva.com  tls:443
+####################################
+
+# reality_XTLS_direct_vless www.canva.com 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=www.canva.com&type=tcp&alpn=h2&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=-IhkYQn-bs-oRurBXDVSnQyNlviUkWqau8pn20lu2Rw&sid=e18f#www.canva.com_reality_XTLS_direct_vless
+
+
+
+
+####################################
+##  reality  goo.gl  http:80
+####################################
+####################################
+##  reality  goo.gl  tls:443
+####################################
+
+# reality_XTLS_direct_vless goo.gl 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=goo.gl&type=tcp&alpn=h2&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=-IhkYQn-bs-oRurBXDVSnQyNlviUkWqau8pn20lu2Rw&sid=e18f#goo.gl_reality_XTLS_direct_vless
+
+
+
+
+####################################
+##  reality  goo.gl  http:80
+####################################
+####################################
+##  reality  goo.gl  tls:443
+####################################
+
+# reality_XTLS_direct_vless goo.gl 
+vless://89adcfd6-cd46-4c87-b252-6ef5f6943b85@sub.fun4.cloud:443?hiddify=1&sni=goo.gl&type=tcp&alpn=h2&encryption=none&fp=chrome&headerType=None&flow=xtls-rprx-vision&security=reality&pbk=-IhkYQn-bs-oRurBXDVSnQyNlviUkWqau8pn20lu2Rw&sid=e18f#goo.gl_reality_XTLS_direct_vless
+
+
+
+
